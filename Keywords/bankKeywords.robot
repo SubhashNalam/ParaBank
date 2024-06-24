@@ -1,6 +1,5 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../Entities/url.robot
 Resource    ../Entities/testdata.robot
 Resource    ../Entities/locators.robot
 
@@ -38,9 +37,7 @@ user is able to see welcome screen
     Sleep    3s
 
 ###### Login ######
-user will able to launch the browser and opens the bank page url
-    Open Browser    ${url}    ${browser}
-    Maximize Browser Window
+user will able to opens the bank page url
     Capture Page Screenshot
 user is able to login with his credentials
     Input Text    ${username_Xp}     ${username} 

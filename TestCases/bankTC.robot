@@ -1,6 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../InterfaceKeywords/bankIK.robot
+Resource    ../Entities/url.robot
+Suite Setup    Open Browser and Maximize
 
 *** Test Cases ***
 Resetting Database
@@ -17,7 +19,7 @@ Registering in the bank
 
 Logging into the bank
     [Tags]    Login
-    Given user will launch the browser and opens the bank page url
+    Given user will opens the bank page url
     When user will try to login with his credentials
     Then user will try to see his account overview
 

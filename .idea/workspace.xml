@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cea623fa-0cd7-45e0-9e0d-e633e8db68e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestCases/bankTC.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/url.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/url.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterfaceKeywords/bankIK.robot" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceKeywords/bankIK.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Keywords/bankKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywords/bankKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/bankTC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/bankTC.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,19 @@
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="TC included">
+      <option name="closed" value="true" />
+      <created>1719214501666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719214501666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TC included" />
+    <option name="LAST_COMMIT_MESSAGE" value="TC included" />
   </component>
 </project>

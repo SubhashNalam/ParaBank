@@ -20,8 +20,8 @@ user will try to see welcome screen
     user is able to see welcome screen
 
 ### Login ###
-user will launch the browser and opens the bank page url
-    user will able to launch the browser and opens the bank page url
+user will opens the bank page url
+    user will able to opens the bank page url
 user will try to login with his credentials
     user is able to login with his credentials
 user will try to see his account overview
