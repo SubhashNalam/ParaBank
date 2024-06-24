@@ -1,0 +1,46 @@
+Index: TestCases/bankTC.robot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TestCases/bankTC.robot b/TestCases/bankTC.robot
+new file mode 100644
+--- /dev/null	(date 1706763191759)
++++ b/TestCases/bankTC.robot	(date 1706763191759)
+@@ -0,0 +1,36 @@
++*** Settings ***
++Library    SeleniumLibrary
++Resource    ../InterfaceKeywords/bankIK.robot
++
++*** Test Cases ***
++Registering a new bank account
++    [Tags]    Register
++    Given user will launch the browser and opens the bank page url
++    When user will try to click on register
++    And user will try to enter his details
++    Then user will try to see welcome screen
++
++Logging into bank account
++    [Tags]    Login
++    Given user will launch the browser and opens the bank page url
++    When user will try to login with his credentials
++    Then user will try to see his account overview
++
++Transferring amount
++    [Tags]    Transfer
++    Given user will try to select the money transfer page
++    When user will try to enter the details
++    Then user will expect to see transfer complete message
++
++Bill Payment
++    [Tags]    Payment
++    Given user will try to select the bill payment page
++    When user will try to enter payment details
++    Then user will try see the message bill payment complete
++
++Database reset
++    [Tags]    Reset
++    Given user will launch the browser and opens the bank page url
++    When user will try to click on admin page
++    And user will try to click on clean button for database
++    Then user will try to see the message database cleaned
